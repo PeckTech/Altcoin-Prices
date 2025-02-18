@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eu.uwot.fabio.altcoinprices">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/appName"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activities.LoadingActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/appName"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.SettingsActivity"
+            android:label="@string/titleActivitySettings"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.ManageCustomCoinsActivity"
+            android:label="@string/titleActivityManageCustomCoins"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.AddCustomCoinActivity"
+            android:label="@string/titleActivityAddCustomCoin"
+            android:parentActivityName=".activities.ManageCustomCoinsActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".activities.EditCustomCoinActivity"
+            android:label="@string/titleActivityEditCustomCoins"
+            android:parentActivityName=".activities.ManageCustomCoinsActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".activities.AddNewPortfolioItemActivity"
+            android:label="@string/titleActivityAddNewPortfolioItem"
+            android:parentActivityName=".activities.MainActivity" />
+        <activity
+            android:name=".activities.EditPortfolioItemActivity"
+            android:label="@string/titleActivityEditPortfolioItem"
+            android:parentActivityName=".activities.MainActivity"
+            android:noHistory="true" />
+        <activity
+            android:name=".activities.DisplayGraphActivity"
+            android:parentActivityName=".activities.MainActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_manageCustomCoins"
+        android:orderInCategory="100"
+        android:title="@string/titleActivityManageCustomCoins"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/action_addCustomCoin"
+        android:orderInCategory="100"
+        android:title="@string/titleActivityAddCustomCoin"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_editCustomCoin"
+        android:orderInCategory="100"
+        android:title="@string/titleActivityEditCustomCoins"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/actionSettings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reload"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_reload"
+        android:title="@string/actionReload"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_addNew"
+        android:enabled="true"
+        android:icon="@drawable/ic_action_addnew"
+        android:title="@string/actionAddNew"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,165 @@
+<resources>
+    <string name="appName" translatable="false">Altcoin Prices</string>
+
+    <string name="navigationDrawerOpen">Open navigation drawer</string>
+    <string name="navigationDrawerClose">Close navigation drawer</string>
+
+    <string name="actionSettings">Settings</string>
+    <string name="actionAddNew">AddNew</string>
+    <string name="actionReload">Reload</string>
+
+    <!-- MENU -->
+    <string name="menuTitle" translatable="false">Altcoin Prices</string>
+    <string name="menuSubtitle">Monitor crypto prices in real time</string>
+
+    <!-- ACTIVITIES TITLES -->
+    <string name="titleActivityAddNewPortfolioItem">Add new Altcoin</string>
+    <string name="titleActivityEditPortfolioItem">Edit Altcoin</string>
+    <string name="titleActivitySettings">Settings</string>
+    <string name="titleActivityManageCustomCoins">Manage custom coins</string>
+    <string name="titleActivityAddCustomCoin">Add custom coin</string>
+    <string name="titleActivityEditCustomCoins">Edit custom coin</string>
+
+    <!-- SETTINGS -->
+    <string name="periodDescription">Candlestick period</string>
+    <string name="timezoneDescription">Timezone</string>
+    <string name="currencyDescription">Global currency</string>
+    <string name="sortingDescription">Portfolio sorting</string>
+    <string name="aboutTitle">About</string>
+    <string name="aboutText">Altcoin Prices is a free as in freedom Android application to monitor cryptocurrencies prices in real time.
+        \nGet the full source code at <a href="https://gitlab.com/cfabio/AltcoinPrices">gitlab.com</a>
+        \n\n<a href="https://gitlab.com/cfabio/AltcoinPrices#how-can-i-support-the-developer">Support the developer and send a donation</a>
+        \n\nLicense: GPLv3
+        \n\n<b>Version</b></string>
+
+    <!-- MAIN -->
+    <string name="Balance">Balance</string>
+    <string name="weight">Weight</string>
+
+    <!-- AddNewPortfolioItem & EditPortfolioItem -->
+    <string name="altcoinName">Altcoin Name</string>
+    <string name="amountBought">Amount bought</string>
+    <string name="amount">amount</string>
+    <string name="unitPrice">Unit price</string>
+    <string name="price">price</string>
+    <string name="currency">Currency</string>
+    <string name="amountHeld">Amount held</string>
+
+    <!-- AddCustomCoin -->
+    <string name="altcoinSymbol">Altcoin symbol</string>
+    <string name="altcoinSymbol_text">symbol (e.g. BTC)</string>
+    <string name="tradingviewExchangeName">TradingView graph\nexchange name</string>
+    <string name="tradingviewExchangeName_text">exchange (or na)</string>
+    <string name="tradingviewTradingPair">TradingView graph\ntrading pair</string>
+    <string name="tradingviewTradingPair_text">EUR, BTC, na</string>
+    <string name="coinAlreadyPresent">Coin already present</string>
+
+    <string name="save">Save</string>
+    <string name="remove">Remove</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="networkUnavailable">Network unavailable</string>
+    <string name="graphUnavailable">Graph unavailable</string>
+    <string name="missingAPIkeyError">CryptoCompare API key is missing</string>
+
+    <string name="all_time">All-time</string>
+    <string name="today">Today</string>
+
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+
+    <string name="importSettings"><font color="#009cc6">Import Settings</font> (path: /storage/emulated/0/AltcoinPricesSettingsBackup.bin)</string>
+    <string name="cryptocompareAPIText">CryptoCompare.com API key (<a href="https://min-api.cryptocompare.com/pricing">get yours for free</a>)</string>
+    <string name="cryptocompareAPI">API key</string>
+    <string name="settingsImported">Settings imported</string>
+    <string name="exportSettings"><font color="#009cc6">Export Settings</font> (path: /storage/emulated/0/AltcoinPricesSettingsBackup.bin)</string>
+    <string name="settingsExported">Settings exported</string>
+    <string name="reloadCoinsLogos"><font color="#009cc6">Reload Coins Logos:</font> click here to reload coins logos</string>
+    <string name="loadingCoinsLogos">Loading Coins Logos</string>
+    <string name="error">Error</string>
+    <string name="loading">Loading</string>
+    <string name="formIsIncomplete">Form is incomplete</string>
+    <string name="errorNegativeAmount">Error: negative amount</string>
+    <string name="errorCoinNotFound">Error: coin not found</string>
+
+    <string name="editBoughtTimeDate">Edit bought time date</string>
+
+    <string name="skip">Skip</string>
+
+    <string name="indicatorsTitle">Indicators</string>
+    <string name="bollingerBandsCheckBox">Bollinger Bands</string>
+    <string name="macdCheckBox">MACD</string>
+    <string name="ichimokuCheckBox">Ichimoku Cloud</string>
+    <string name="rsiCheckBox">RSI</string>
+
+    <string-array name="currencyArray">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+        <item>CNY</item>
+        <item>JPY</item>
+        <item>RUB</item>
+        <item>CAD</item>
+        <item>AUD</item>
+        <item>INR</item>
+        <item>KRW</item>
+        <item>CHF</item>
+        <item>BTC</item>
+    </string-array>
+
+    <string name="defaultSorting">Default</string>
+    <string name="coinNameSorting">Coin name</string>
+    <string name="coinCodeSorting">Coin code</string>
+    <string name="coinBalanceSorting">Balance</string>
+
+    <string-array name="sortingArray">
+        <item>Default</item>
+        <item>Coin name</item>
+        <item>Coin code</item>
+        <item>Balance</item>
+    </string-array>
+
+    <string-array name="periodArray">
+        <item>1 minute</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>4 hours</item>
+        <item>1 day</item>
+        <item>1 week</item>
+        <item>1 month</item>
+    </string-array>
+
+    <string name="hour">hour</string>
+    <string name="hours">hours</string>
+    <string name="day">day</string>
+    <string name="week">week</string>
+    <string name="month">month</string>
+
+    <string-array name="timezoneArray">
+        <item>UTC-10</item>
+        <item>UTC-7</item>
+        <item>UTC-6</item>
+        <item>UTC-5</item>
+        <item>UTC-4</item>
+        <item>UTC-3</item>
+        <item>UTC</item>
+        <item>UTC+1</item>
+        <item>UTC+2</item>
+        <item>UTC+3</item>
+        <item>UTC+4</item>
+        <item>UTC+5</item>
+        <item>UTC+6</item>
+        <item>UTC+7</item>
+        <item>UTC+8</item>
+        <item>UTC+9</item>
+        <item>UTC+10</item>
+        <item>UTC+12</item>
+        <item>UTC+13</item>
+    </string-array>
+
+</resources>

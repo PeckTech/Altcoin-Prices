@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#ff4444</color>
+    <color name="colorSeparator">#90909090</color>-->
+
+    <color name="colorPrimary">#009cc6</color>
+    <color name="colorPrimaryDark">#008aaf</color>
+    <!--<color name="colorAccent">#ff4444</color>-->
+    <color name="colorButtonsSeparator">#90909090</color>
+
+    <!--<color name="portfolioBackground">#d7d7d7</color>-->
+    <color name="portfolioBackground">#ededed</color>
+    <color name="colorSingleElementOfPortfolioBackgroundFrame">#ffffff</color>
+    <color name="colorTextMain">#494949</color>
+    <color name="colorTextSeconday">#777777</color>
+    <color name="green">#009344</color>
+    <color name="red">#cf2734</color>
+    <!--<color name="colorAccent">#f18400</color>-->
+    <color name="colorAccent">#009cc6</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigationDrawerOpen">Ouvrir tiroir de navigation</string>
+    <string name="navigationDrawerClose">Fermer tiroir de navigation</string>
+
+    <string name="actionSettings">Paramètres</string>
+    <string name="actionAddNew">AjouterNouveau</string>
+    <string name="actionReload">Recharger</string>
+    <string name="menuSubtitle">Contrôle le marché des crypto-monnaies en temps réels</string>
+    <string name="periodDescription">Ajuste la période des candlesticks</string>
+    <string name="aboutText">Application Android pour garder un oeil sur le prix des crypto-monnaies en temps réels.
+        \nCode source sur <a href="https://gitlab.com/cfabio/AltcoinPrices">gitlab.com</a>
+        \n\n<a href="https://gitlab.com/cfabio/AltcoinPrices#how-can-i-support-the-developer">Soutien le développeur et envoie une donation</a>
+        \n\n<b>Version</b></string>
+    <string name="Balance">Solde</string>
+    <string name="titleActivitySettings">Paramètres</string>
+    <string name="titleActivityAddNewPortfolioItem">Ajouter nouveau altcoin</string>
+    <string name="titleActivityEditPortfolioItem">Modifier Altcoin</string>
+    <string name="altcoinName">Nom de l\'Altcoin</string>
+    <string name="amountBought">Montant Acheté</string>
+    <string name="amount">Montant</string>
+    <string name="unitPrice">Prix unitaire</string>
+    <string name="price">Prix</string>
+    <string name="currency">Monnaie</string>
+    <string name="amountHeld">Solde</string>
+    <string name="save">Enregistrer</string>
+    <string name="remove">Supprimer</string>
+    <string name="cancel">Annuler</string>
+
+    <string-array name="periodArray">
+        <item>1 minute</item>
+        <item>3 minutes</item>
+        <item>5 minutes</item>
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 heure</item>
+        <item>2 heures</item>
+        <item>3 heures</item>
+        <item>4 heures</item>
+        <item>1 jour</item>
+        <item>1 semaine</item>
+        <item>1 mois</item>
+    </string-array>
+
+    <string name="hour">heure</string>
+    <string name="hours">heures</string>
+    <string name="day">jour</string>
+    <string name="week">semaine</string>
+    <string name="month">mois</string>
+
+</resources>
